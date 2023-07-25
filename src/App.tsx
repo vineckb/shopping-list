@@ -1,14 +1,14 @@
 import React from 'react';
 import { PaperProvider } from 'react-native-paper';
 import { AppBar } from './components/AppBar';
-import { database } from './databases';
-import { List } from './databases/models/list';
+import { database } from './database';
+import { List } from './database/models/list';
 
 export function App() {
   async function load() {
-    const response = await database.get<List>('lists').find('dasdasda');
+    const lists = await database.get<List>('lists').query();
 
-    console.log('response', response);
+    console.log('lists', lists);
   }
 
   React.useEffect(() => {
