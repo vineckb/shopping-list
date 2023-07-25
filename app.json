@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shopplist",
-    "slug": "shopplist",
+    "name": "shoppinglist",
+    "slug": "shoppinglist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.vineckb.shopplist"
+      "package": "com.vineckb.shoppinglist"
     },
     "web": {
       "favicon": "./assets/favicon.png"

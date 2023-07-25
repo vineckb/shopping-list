@@ -1,4 +1,4 @@
-package com.vineckb.shopplist;
+package com.vineckb.shoppinglist;
 
 import android.app.Application;
 import android.content.res.Configuration;

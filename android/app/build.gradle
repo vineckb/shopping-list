@@ -113,9 +113,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace 'com.vineckb.shopplist'
+    namespace 'com.vineckb.shoppinglist'
     defaultConfig {
-        applicationId 'com.vineckb.shopplist'
+        applicationId 'com.vineckb.shoppinglist'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
