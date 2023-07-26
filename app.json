@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "shoppinglist",
+    "scheme": "myapp",
     "slug": "shoppinglist",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,15 +24,10 @@
       "package": "com.vineckb.shoppinglist"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
-      [
-        "@morrowdigital/watermelondb-expo-plugin",
-        {
-          "databases": ["morrow.db"]
-        }
-      ],
       [
         "expo-build-properties",
         {
@@ -39,7 +35,14 @@
             "kotlinVersion": "1.6.10"
           }
         }
-      ]
+      ],
+      [
+        "@morrowdigital/watermelondb-expo-plugin",
+        {
+          "databases": ["morrow.db"]
+        }
+      ],
+      "expo-router"
     ]
   }
 }
